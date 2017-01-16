@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_contacts"
+        android:enabled="true"
+        android:icon="@android:drawable/sym_contact_card"
+        android:title="contacts"
+
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_white"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_call"
+        android:title="white"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_black"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="black"
+        app:showAsAction="ifRoom" />
+</menu>
